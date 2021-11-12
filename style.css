@@ -5,6 +5,7 @@ margin: 0;
 h1{
     font-size: 50px;
 }
+
 .firstc{
     color: orange;
 }
@@ -16,6 +17,7 @@ h1{
 }
 .half-width img{
     width: 100%;
+    position: relative;
 }
 .top{
     background-image: url("images/top.png");
@@ -23,7 +25,7 @@ h1{
 }
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 125px;
 }
 .linkbutton{
     text-decoration: none;
@@ -36,4 +38,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-Experiance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 45%;
+    padding: 15px;
+    background-color: white;
+}
+.experiances{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack{
+    border: 5px solid;
+    border-image: linear-gradient( lightsalmon,tomato);
+   
+}
+#baby-web{
+    border: 5px solid;
+    border-image: linear-gradient( blue,cyan);
+    
+}
+footer p{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
 }
