@@ -1,51 +1,39 @@
+body{
+font-family: sans-serif;
+margin: 0;  
+}
 h1{
     font-size: 50px;
-    padding-left:15% ;
 }
-h2{
-    padding-left: 15%;
-}
-p{
-    padding-left: 15%;
-}
-img{
-    padding-left: 35%;
-    padding-top: 2%;
-}
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
-.namecolor{
-    color:orange;
-}
-.wel{
-    color: orangered;
-    font-size: larger;
-}
-.color-class{
-    color: orangered;
+.firstc{
+    color: orange;
 }
 .half-width{
     width: 40%;
     float: left;
+    margin-left:5%;
+    margin-right: 2%;
 }
 .half-width img{
     width: 100%;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
+.top{
+    background-image: url("images/top.png");
+    background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 50px;
 }
-.hbutton{
+.linkbutton{
     text-decoration: none;
-    background-color: rgba(233, 74, 62, 0.856);
-    padding: 10px 20px;
-    margin-left: 15%;
-    margin-bottom: 10%;
-    border-radius: 5px;
+    background-color: orangered;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
     color: white;
-    font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
