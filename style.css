@@ -1,11 +1,30 @@
 h1{
     font-size: 50px;
+    padding-left:15% ;
+}
+h2{
+    padding-left: 15%;
+}
+p{
+    padding-left: 15%;
+}
+img{
+    padding-left: 35%;
+    padding-top: 2%;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .namecolor{
     color:orange;
+}
+.wel{
+    color: orangered;
+    font-size: larger;
+}
+.color-class{
+    color: orangered;
 }
 .half-width{
     width: 40%;
@@ -13,4 +32,20 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+}
+section{
+    height: 500px;
+}
+.hbutton{
+    text-decoration: none;
+    background-color: rgba(233, 74, 62, 0.856);
+    padding: 10px 20px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
