@@ -1,0 +1,16 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.namecolor{
+    color:orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
